@@ -1,0 +1,57 @@
+body{
+    color: white;
+    background-color: black;
+    
+}
+
+
+#calc{
+    position: fixed;
+    
+    background-color: rgb(25, 25, 25);
+    display: block;
+    width: 265px;
+    height: 355px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+p{
+    margin: 8px 12px;
+}
+input{
+    color: black;
+    text-align: right;
+    font-family: 'Tomorrow', sans-serif;
+    margin: 0 0 6px 6px;
+    width: 248px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button{
+  width: 60px;
+  height: 45px;
+  margin-bottom: 1px;
+  border: none;
+  background-color: black;
+  color: white;
+  outline: none;
+}
+button:hover{
+  background-color: darkgrey;
+}
+
+
+.row{
+  margin-left: 6px;
+}
+.sign, .operation{
+  background-color: rgb(10, 10, 10);
+}
+#equal{
+  background-color:darkcyan;
+}
+#equal:hover{
+  background-color: cyan;
+}
